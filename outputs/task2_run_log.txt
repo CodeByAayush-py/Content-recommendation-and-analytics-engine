@@ -1,0 +1,24 @@
+type
+Movie      0.697
+TV Show    0.303
+Name: proportion, dtype: float64
+'duration' alone predicts type with accuracy = 1.000  -> leakage, excluded from the model
+42 of 42 raw genre labels appear in only ONE type -> genre labels leak too
+Feature matrix: (8787, 61)
+                     Accuracy  Precision  Recall      F1  CV acc (5-fold)
+Model                                                                    
+Gradient Boosting      0.9716     0.9531  0.9531  0.9531           0.9726
+Decision Tree          0.9710     0.9530  0.9512  0.9521           0.9718
+Random Forest          0.9699     0.9478  0.9531  0.9504           0.9701
+Logistic Regression    0.9693     0.9477  0.9512  0.9494           0.9702
+KNN (k=15)             0.9357     0.9339  0.8480  0.8889           0.9343
+
+Majority-class baseline accuracy = 0.6969
+[saved] /home/claude/netflix-ml-internship/outputs/task2_model_comparison.png
+Best model: Gradient Boosting
+[saved] /home/claude/netflix-ml-internship/outputs/task2_confusion_matrix.png
+[saved] /home/claude/netflix-ml-internship/outputs/task2_feature_importance.png
+Honest (type-neutral themes, no duration)    0.9716
+Honest, but without has_director flag        0.8942
+Leaky: raw genre labels                      0.9960
+Leaky: + duration                            1.0000

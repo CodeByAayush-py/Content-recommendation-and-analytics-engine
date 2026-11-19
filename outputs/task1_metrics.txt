@@ -1,0 +1,2 @@
+Genre Jaccard@5 recommender=0.896 random=0.088
+Hidden-genre recovery@5 recommender=0.289 chance=0.139

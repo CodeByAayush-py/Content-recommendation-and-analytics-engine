@@ -1,0 +1,47 @@
+=== Ganglands ===
+ similarity         title    type  release_year rating                                                     listed_in
+      0.865         Lupin TV Show          2021  TV-MA Crime TV Shows, International TV Shows, TV Action & Adventure
+      0.865    Crime Time TV Show          2017  TV-MA Crime TV Shows, International TV Shows, TV Action & Adventure
+      0.789 Fatal Destiny TV Show          2016  TV-MA Crime TV Shows, International TV Shows, TV Action & Adventure
+      0.782  Agent Raghav TV Show          2015  TV-14 Crime TV Shows, International TV Shows, TV Action & Adventure
+      0.782       Smoking TV Show          2018  TV-MA Crime TV Shows, International TV Shows, TV Action & Adventure
+
+=== Midnight Mass ===
+ similarity                      title    type  release_year rating                          listed_in
+      0.902  The Haunting of Bly Manor TV Show          2020  TV-MA TV Dramas, TV Horror, TV Mysteries
+      0.902                    Ratched TV Show          2020  TV-MA TV Dramas, TV Horror, TV Mysteries
+      0.902 The Haunting of Hill House TV Show          2018  TV-MA TV Dramas, TV Horror, TV Mysteries
+      0.902    Brand New Cherry Flavor TV Show          2021  TV-MA TV Dramas, TV Horror, TV Mysteries
+      0.888              The Originals TV Show          2018  TV-14 TV Dramas, TV Horror, TV Mysteries
+
+=== The Great British Baking Show ===
+ similarity                                      title    type  release_year rating                    listed_in
+      0.826                        Operation Gold Rush TV Show          2016  TV-14 British TV Shows, Reality TV
+      0.804                                   21 Again TV Show          2019  TV-MA British TV Shows, Reality TV
+      0.789                            The Repair Shop TV Show          2018  TV-PG British TV Shows, Reality TV
+      0.789                              The Big Catch TV Show          2015  TV-PG British TV Shows, Reality TV
+      0.789 The Great British Baking Show: Masterclass TV Show          2018  TV-PG British TV Shows, Reality TV
+
+=== Motu Patlu in Wonderland ===
+ similarity                                                        title  type  release_year rating                                            listed_in
+      1.000 Motu Patlu Kung Fu Kings 4 The Challenge of Kung Fu Brothers Movie          2018  TV-Y7           Children & Family Movies, Music & Musicals
+      1.000                     Motu Patlu in Hong Kong: Kung Fu Kings 3 Movie          2017  TV-Y7           Children & Family Movies, Music & Musicals
+      0.937                               Motu Patlu in the City of Gold Movie          2018  TV-Y7 Children & Family Movies, Comedies, Music & Musicals
+      0.937                              Motu Patlu in the Game of Zones Movie          2019  TV-Y7 Children & Family Movies, Comedies, Music & Musicals
+      0.813                                            Shiva VS Autobots Movie          2018  TV-Y7                             Children & Family Movies
+
+=== Sankofa ===
+ similarity                     title  type  release_year rating                                        listed_in
+      0.530 LSD: Love, Sex Aur Dhokha Movie          2010  TV-MA Dramas, Independent Movies, International Movies
+      0.524                Dagh Ujala Movie          2015  TV-MA Dramas, Independent Movies, International Movies
+      0.523            Traffic Signal Movie          2007  TV-MA Dramas, Independent Movies, International Movies
+      0.518                   Garbage Movie          2018  TV-MA Dramas, Independent Movies, International Movies
+      0.518                     Udaan Movie          2010  TV-MA Dramas, Independent Movies, International Movies
+
+=== Dick Johnson Is Dead ===
+ similarity                                    title  type  release_year rating     listed_in
+      0.548            The Irishman: In Conversation Movie          2019  TV-MA Documentaries
+      0.548 Murder to Mercy: The Cyntoia Brown Story Movie          2020  TV-MA Documentaries
+      0.548     Liberated: The New Sexual Revolution Movie          2017  TV-MA Documentaries
+      0.540               Virunga: Gorillas in Peril Movie          2015  TV-14 Documentaries
+      0.540           Surviving R. Kelly: The Impact Movie          2019  TV-14 Documentaries

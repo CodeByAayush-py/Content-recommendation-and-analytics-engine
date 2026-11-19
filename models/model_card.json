@@ -1,0 +1,10 @@
+{
+  "model": "Random Forest",
+  "params": {
+    "m__max_depth": null,
+    "m__min_samples_leaf": 3
+  },
+  "test_roc_auc": 0.762,
+  "n_train_rows": 2663,
+  "target": "TV show has 2+ seasons"
+}

@@ -1,0 +1,61 @@
+rating
+TV-MA       3205
+TV-14       2155
+TV-PG        861
+R            798
+PG-13        490
+TV-Y7        333
+TV-Y         306
+PG           287
+TV-G         220
+NR            79
+G             41
+TV-Y7-FV       6
+NC-17          3
+UR             3
+
+Audience groups:
+ audience
+Adults    4006
+Teens     3793
+Kids       906
+[saved] /home/claude/netflix-ml-internship/outputs/task3_rating_distribution.png
+(8705, 64) (6964, 64) (1741, 64)
+              Model    Stage  Accuracy  Macro F1
+Logistic Regression baseline    0.6904    0.6954
+      Decision Tree baseline    0.6479    0.6739
+      Random Forest baseline    0.7111    0.7335
+  Gradient Boosting baseline    0.7295    0.7552
+Decision Tree: best params {'max_depth': 8, 'min_samples_leaf': 20}  CV macro-F1=0.6718
+/usr/local/lib/python3.13/site-packages/joblib/externals/loky/process_executor.py:787: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+Random Forest: best params {'max_depth': None, 'min_samples_leaf': 3, 'n_estimators': 400}  CV macro-F1=0.7177
+Gradient Boosting: best params {'learning_rate': 0.1, 'max_depth': 2, 'n_estimators': 300}  CV macro-F1=0.7290
+              Model    Stage  Accuracy  Macro F1
+Logistic Regression baseline    0.6904    0.6954
+      Decision Tree baseline    0.6479    0.6739
+      Random Forest baseline    0.7111    0.7335
+  Gradient Boosting baseline    0.7295    0.7552
+      Decision Tree    tuned    0.6513    0.6782
+      Random Forest    tuned    0.7203    0.7376
+  Gradient Boosting    tuned    0.7318    0.7558
+
+Majority-class baseline accuracy = 0.4602
+[saved] /home/claude/netflix-ml-internship/outputs/task3_model_comparison.png
+CV macro-F1 of tuned models: {'Decision Tree': np.float64(0.6718), 'Random Forest': np.float64(0.7177), 'Gradient Boosting': np.float64(0.729)}
+
+Best tuned model: Gradient Boosting
+
+              precision    recall  f1-score   support
+
+      Adults      0.722     0.784     0.752       801
+        Kids      0.867     0.796     0.830       181
+       Teens      0.712     0.661     0.686       759
+
+    accuracy                          0.732      1741
+   macro avg      0.767     0.747     0.756      1741
+weighted avg      0.733     0.732     0.731      1741
+
+[saved] /home/claude/netflix-ml-internship/outputs/task3_confusion_matrix.png
+[saved] /home/claude/netflix-ml-internship/outputs/task3_feature_importance.png
+12-class Random Forest: accuracy=0.5727, macro-F1=0.4103, majority baseline=0.3682

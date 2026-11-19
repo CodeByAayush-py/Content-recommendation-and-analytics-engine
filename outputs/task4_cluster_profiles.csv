@@ -1,0 +1,6 @@
+cluster,name,size,% TV,median release yr,median duration,top audience,top themes,top countries
+0,Adult international TV dramas & crime,1568,100.0,2018,1 seasons,Adults,"International, Drama, Crime","Pakistan, United Kingdom"
+1,"Everyday movies: documentaries, family & stand-up",2371,0.0,2017,86 min,Adults,"Documentary, Kids & Family, Comedy","United States, United Kingdom"
+2,"Mainstream international movies (drama/comedy, teen-adult)",3143,0.0,2017,107 min,Teens,"International, Drama, Comedy","India, United States"
+3,Classic older movies (pre-2000s),553,3.8,1992,111 min,Teens,"Drama, Comedy, International","United States, India"
+4,Kids & family TV series,1070,100.0,2018,1 seasons,Kids,"Kids & Family, Comedy, Documentary","United States, Pakistan"

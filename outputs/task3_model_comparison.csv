@@ -1,0 +1,8 @@
+Model,Stage,Accuracy,Macro F1
+Logistic Regression,baseline,0.6904,0.6954
+Decision Tree,baseline,0.6473,0.6784
+Random Forest,baseline,0.7088,0.7319
+Gradient Boosting,baseline,0.7295,0.7552
+Decision Tree,tuned,0.6513,0.6782
+Random Forest,tuned,0.7209,0.738
+Gradient Boosting,tuned,0.7318,0.7558

@@ -1,0 +1,11 @@
+Best tuned model: Gradient Boosting
+
+              precision    recall  f1-score   support
+
+      Adults      0.722     0.784     0.752       801
+        Kids      0.867     0.796     0.830       181
+       Teens      0.712     0.661     0.686       759
+
+    accuracy                          0.732      1741
+   macro avg      0.767     0.747     0.756      1741
+weighted avg      0.733     0.732     0.731      1741

@@ -1,0 +1,5 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+jupyter   # only if you want to open the .ipynb notebooks

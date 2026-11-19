@@ -1,0 +1,6 @@
+Model,CV ROC-AUC,Test ROC-AUC,Test PR-AUC,Test F1,Test Acc
+Baseline (majority),0.5,0.5,0.328,0.0,0.672
+Logistic Regression,0.753,0.747,0.599,0.59,0.679
+Random Forest,0.767,0.762,0.596,0.594,0.705
+Gradient Boosting,0.752,0.762,0.622,0.514,0.745
+HistGradientBoosting,0.76,0.772,0.647,0.539,0.747

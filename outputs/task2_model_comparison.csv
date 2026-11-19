@@ -1,0 +1,6 @@
+Model,Accuracy,Precision,Recall,F1,CV acc (5-fold)
+Gradient Boosting,0.9716,0.9531,0.9531,0.9531,0.9726
+Decision Tree,0.971,0.953,0.9512,0.9521,0.9718
+Random Forest,0.9693,0.946,0.9531,0.9495,0.97
+Logistic Regression,0.9693,0.9477,0.9512,0.9494,0.9702
+KNN (k=15),0.9357,0.9339,0.848,0.8889,0.9343
